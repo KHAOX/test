@@ -1,0 +1,224 @@
+<html>
+<head>
+	<title>Gallery</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">	
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <script src="js/jquery.js"></script>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div class="col-md-12 header">
+			<div class="col-xs-2 text-left visible-xs">	
+				<span class="buttom-menu glyphicon glyphicon-th-large visible-xs" aria-hidden="true"></span>	
+			</div>	
+			<div class="col-md-6 col-sm-4 col-xs-2 text-left">
+				<div class="logo">Gallery</div>
+			</div>
+			<div class="col-md-6 col-sm-8 col-xs-8 text-right">
+				<input class="search" type="text">
+				<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+				<img class="hidden-xs" src="images/user.png"  width="40px" height="40px" style="margin-left:20px;"/>
+			</div>		
+		</div>
+
+		<div class="col-md-12 content">
+			<div class="col-md-2 col-sm-3" id="menu-content">
+				<div class="container-full insert-img text-center hidden-sm hidden-xs">
+					<span>- - - - - - - - - - - - - -</span><br>
+					<span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span><br>
+					<span>- - - - - - - - - - - - - -</span><br>
+				</div>
+				<br>
+				<h5>MAIN</h5>
+				<ul>
+					<li class="item active">
+						<span class="glyphicon glyphicon-sunglasses" aria-hidden="true"></span>
+						<span class="menuitem">Overview</span>
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-retweet" aria-hidden="true"></span>
+						<span class="menuitem">Activity</span>						
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-heart" aria-hidden="true"></span>
+						<span class="menuitem">Dearest</span>	
+						
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-folder-open" aria-hidden="true"></span>
+						<span class="menuitem">Folders</span>	
+						
+					</li><br>
+					<li>
+						Filter
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-picture" aria-hidden="true"></span>
+						<span class="menuitem">Images</span>	
+						
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-volume-up" aria-hidden="true"></span>
+						<span class="menuitem">Audio</span>	
+						
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span>
+						<span class="menuitem">Video</span>	
+						
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>
+						<span class="menuitem">Notes</span>	
+						
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+						<span class="menuitem">Links</span>	
+						
+					</li>
+					<li class="item">
+						<span class="glyphicon glyphicon-hdd" aria-hidden="true"></span>
+						<span class="menuitem">Files</span>							
+					</li>
+				</ul>
+
+				<div id="disk">
+					<p style="color:#fff;">50 GB / 100 GB</p>
+					<div class="progress">
+					  <div class="progress-bar progress-bar-danger progress-bar-striped" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%">
+					    <span class="sr-only">50% Complete (danger)</span>
+					  </div>
+					</div>
+
+				</div>	
+			</div>
+			<div class="col-md-10" id="images-content">
+				<h3 class="hidden-xs">Overview</h3>
+				<div class="col-md-12 submenu">
+					<div class="col-md-6 col-xs-12 menu-pri">
+						<span class="glyphicon glyphicon-plus-sign icon active" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-print icon" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-save-file icon" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-trash icon" aria-hidden="true"></span>	
+						<span class="selecteditems">0 selected items</span>
+					</div>
+					<div class="col-md-6 col-xs-12 text-right menu-sec hidden-xs">
+						Name&nbsp;Size&nbsp;Views&nbsp;<span class="active-menu">Uploaded</span>
+					</div>
+				</div>	
+				<div class="col-md-12 gallery">
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/belleza.jpg" class="img-gallery"/><br>
+						<p class="name">belleza.jpg</p>
+						<p class="time">41 minutos ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/cielo.jpg" class="img-gallery"/><br>
+						<p class="name">cielo.jpg</p>
+						<p class="time">1 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/hermanito.jpg" class="img-gallery"/><br>
+						<p class="name">hermanito.jpg</p>
+						<p class="time">1 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/hogar.jpg" class="img-gallery"/><br>
+						<p class="name">hogar.jpg</p>
+						<p class="time">2 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/libelula.jpg" class="img-gallery"/><br>
+						<p class="name">libelula.jpg</p>
+						<p class="time">2 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/mar.jpg" class="img-gallery"/><br>
+						<p class="name">mar.jpg</p>
+						<p class="time">3 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/mariposa.jpg" class="img-gallery"/><br>
+						<p class="name">marapisa.jpg</p>
+						<p class="time">3 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/matrimonio.jpg" class="img-gallery"/><br>
+						<p class="name">matrimonio.jpg</p>
+						<p class="time">3 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/nuevo htc.jpg" class="img-gallery"/><br>
+						<p class="name">nuevo htc.jpg</p>
+						<p class="time">4 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/nuevo look.jpg" class="img-gallery"/><br>
+						<p class="name">nuevo look.jpg</p>
+						<p class="time">4 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/paraiso.jpg" class="img-gallery"/><br>
+						<p class="name">paraiso.jpg</p>
+						<p class="time">4 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/paz,amor y grafitti.jpg" class="img-gallery"/><br>
+						<p class="name">paz,amor y grafitti.jpg</p>
+						<p class="time">4 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/pecera natural.jpg" class="img-gallery"/><br>
+						<p class="name">pecera natural.jpg</p>
+						<p class="time">4 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/photomania.jpg" class="img-gallery"/><br>
+						<p class="name">photomania.jpg</p>
+						<p class="time">4 hours ago</p>
+					</div>
+
+					<div class="col-md-15 col-sm-4 col-xs-6 gallery-item">
+						<img src="gallery/si.jpg" class="img-gallery"/><br>
+						<p class="name">si.jpg</p>
+						<p class="time">4 hours ago</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+
+	<div id="show-img">
+		<div id="button-close"><span class="glyphicon glyphicon-remove-sign" aria-hidden="true"></span></div>
+		<div class="container">	
+			<div class="col-md-2"></div>	
+			<div class="col-md-8">
+				<p class="text-center"><img src="gallery/belleza.jpg" class="img-responsive img-show"/></p>	
+			</div>						
+			<div class="col-md-2"></div>	
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/scripts.js"></script>
+	
+</body>
+</html>
